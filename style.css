@@ -1,0 +1,25 @@
+/* CSS files add styling rules to your content */
+ul.no-bullets {
+  list-style-type: none;
+}
+body.about {
+  font-family: helvetica, arial, sans-serif;
+  width: 1000px;
+  padding: 20px;
+  margin: 10%, 20%;
+}
+
+img {
+  float: right;
+  width: 50%;
+  padding: 20px;
+}
+
+h1 {
+  font-style: bold;
+  color: ;
+}
+h2 {
+  font-style: italic;
+  color: ;
+}
