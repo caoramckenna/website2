@@ -5,25 +5,20 @@ ul.no-bullets {
 body {
   font-family: helvetica, arial, sans-serif;
   padding: 20px;
-  margin: 0 auto;
+  margin: 0;
   max-width: 800px; 
   box-sizing: border-box;
   font-size: 1rem;
 }
 
+/* Image floats right on desktop */
 img {
   float: right;
-  width: 50%;
+  width: 50%;       
   padding: 20px;
+  max-width: 50%;   
+  height: auto;
 }
-@media (max-width: 600px) {
-  img {
-    width: 35%;
-    float: right;
-    padding: 10px;
-  }
-}
-
 
 h1 {
   font-style: bold;
@@ -32,5 +27,21 @@ h1 {
 h2 {
   font-style: italic;
   color: ;
+}
+
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  img {
+    float: right;      
+    width: 40%;      
+    max-width: 40%;
+    display: block;   
+    padding: 10px 0;
+  }
+
+  body {
+    padding: 15px;
+  }
 }
 
