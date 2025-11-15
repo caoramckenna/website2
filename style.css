@@ -2,7 +2,7 @@
 ul.no-bullets {
   list-style-type: none;
 }
-body.about {
+body {
   font-family: helvetica, arial, sans-serif;
   width: 1000px;
   padding: 20px;
